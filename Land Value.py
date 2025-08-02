@@ -40,7 +40,6 @@ canada_rows = canada_rows.reset_index()
 canada_rows = canada_rows.drop(columns="index")
 canada_rows.index = canada_rows[" REGIONAL CODE"]
 canada_rows = canada_rows.drop(columns=" REGIONAL CODE")
-print(canada_rows)
 
 # asking the user which province they would like to analyse
 print("Hello, please input a province to analyse its historical land value changes. Input 'index' if you're not sure about the list of provinces and their abbreviations. ")
